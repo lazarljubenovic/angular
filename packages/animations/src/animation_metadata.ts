@@ -1139,7 +1139,7 @@ export function useAnimation(
  *  - `query(":enter")` or `query(":leave")` : Query for newly inserted/removed elements.
  *  - `query(":animating")` : Query all currently animating elements.
  *  - `query("@triggerName")` : Query elements that contain an animation trigger.
- *  - `query("@*")` : Query all elements that contain an animation triggers.
+ *  - `query("@*")` : Query all elements that contain an animation trigger.
  *  - `query(":self")` : Include the current element into the animation sequence.
  *
  * @param animation One or more animation steps to apply to the queried element or elements.
